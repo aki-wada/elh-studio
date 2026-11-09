@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite ELH Studio and state the version used."
+type: software
+title: "ELH Studio"
+version: "1.3.1"
+authors:
+  - family-names: Wada
+    given-names: Akihiko
+repository-code: "https://github.com/aki-wada/elh-studio"
+url: "https://github.com/aki-wada/elh-studio"
+abstract: "A browser-based research tool for endolymphatic space volume and volume ratio measurements using HYDROPS MRI."

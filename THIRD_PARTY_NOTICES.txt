@@ -1,0 +1,69 @@
+dicom-parser
+The MIT License (MIT)
+
+Copyright (c) 2014 Chris Hafey (chafey@gmail.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+fflate
+MIT License
+
+Copyright (c) 2026 Arjun Barrett
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+IE-Map (cochlear skeleton for LUMEN)
+The predefined cochlear shape that LUMEN fits to the fluid (the cochlear skeleton) is the centerline of the right-ear cochlear lumen (scala tympani, scala vestibuli and cupula) of IE-Map, extracted and resampled by tools/make_cochlear_skeleton.py (changes were made; the left ear uses its mirror image).
+Ahmadi SA, Raiser TM, Ruehl RM, Flanagin VL, zu Eulenburg P. IE-Map: a novel in-vivo atlas and template of the human inner ear. Sci Rep 11, 3293 (2021). doi:10.1038/s41598-021-82716-0
+IE-Map is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+VS-SEG (reference template for automatic localization)
+The automatic-localization reference template in this file (vendor/atlas_vsseg_mean.json) is the average of six cases of the Vestibular-Schwannoma-SEG collection and their left-right mirrors, aligned on their inner-ear center points and sampled sparsely (changes were made). It is not the image of any single subject.
+Shapey J, Kujawa A, Dorent R, Wang G, Bisdas S, Dimitriadis A, Grishchuck D, Paddick I, Kitchen N, Bradford R, Saeed S, Ourselin S, Vercauteren T. Segmentation of Vestibular Schwannoma from Magnetic Resonance Imaging: An Open Annotated Dataset and Baseline Algorithm (version 2) [Data set]. The Cancer Imaging Archive (2021). https://doi.org/10.7937/TCIA.9YTJ-5Q73
+The dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+IE-Vnet / IEVNet sample data (reproducibility materials only)
+Source: https://github.com/pydsgz/IEVNet/tree/main/sample_data
+Paper: Ahmadi SA et al. IE-Vnet: Deep Learning-Based Segmentation of the Inner Ear's Total Fluid Space. Front Neurol (2022). https://doi.org/10.3389/fneur.2022.663200
+License: Apache License 2.0 (LICENSES/Apache-2.0.txt).
+The original SPACE MRI crops are not included. The small reference_annotations.npz
+contains new cochlear/vestibular and canal/common-crus label masks drawn or derived
+from those public sample images. Changes: manual anatomical partition, grid mapping
+and a one-voxel rim rule; no original MRI intensity array is in this NPZ.
+Synthetic outputs generated locally retain source-derived anatomy and MRC signal.
+They must not be described as having no patient-derived content.
+
+The original ELH Studio code and documents use the research terms in TERMS.md.
+Those terms do not remove rights granted by the third-party licenses above.

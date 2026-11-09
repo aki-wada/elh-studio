@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "dataset": "synthetic_v4",
+  "tolerance": 0.001,
+  "reference": "SimpleITK/GDCM independent DICOM reading; HYDROPS = PPI - PEI; aligned to exported image in world coordinates",
+  "comparison_script_sha256": "29fbd77a0ac23dfff780ae104511446b159dc277e86f007903335373a5c26be1",
+  "simpleitk_version": "2.5.5",
+  "cases": [
+    {
+      "case": "SYN-001",
+      "agreement_fraction": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      },
+      "export_zip_sha256": "148f8041ac623791fb2726a0166ebfebfb9446322d737d61d0bb4125ea69e4c4"
+    },
+    {
+      "case": "SYN-002",
+      "agreement_fraction": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      },
+      "export_zip_sha256": "6c5570cb7992ad98ac7804b097c664da32560799ca38f6f8f43da10e4bbd35c4"
+    },
+    {
+      "case": "SYN-003",
+      "agreement_fraction": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      },
+      "export_zip_sha256": "68f847245efa4388288365ddbe29da46e1ef8e9eaa49ba4cb63e09918572dbf2"
+    },
+    {
+      "case": "SYN-004",
+      "agreement_fraction": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      },
+      "export_zip_sha256": "65dfdd330c2434ddfdcb447b46c4b20aa4653da0f13a0c18fd9ac8e0887fd623"
+    }
+  ]
+}

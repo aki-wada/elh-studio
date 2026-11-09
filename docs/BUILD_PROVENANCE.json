@@ -1,0 +1,33 @@
+{
+  "prepared": "2026-11-08",
+  "version": "1.3.1",
+  "repository": "https://github.com/aki-wada/elh-studio",
+  "public_release_performed": true,
+  "html_sha256": "0c48c6b8233b9267f3ff75bb6ce0b2eac1219fdc413996195d3edbc7647458ab",
+  "evaluated_browser_html_sha256": "9e2938fab10841306713cde9bcda5421c5386ae890fd17ef403e49185f7b992c",
+  "html_difference": "Only two default UI language expressions changed from Japanese to English. Reversing those expressions gives the evaluated browser HTML hash exactly.",
+  "frozen_source_commit": "658075e186e79418f13ce170ca06b967b33bc6e4",
+  "engine_sha256": "6ffd2765cfea365aea5e7ae9f34769c160a504023bce2fae6abdf5eca4fb8bec",
+  "worker_sha256": "fb57b3c90a67ee2a5e37cfc85d7ebc8973dd5cdb00676acf0dfec88e4b472488",
+  "original_final_edited_export_sha256": {
+    "SYN-001": "93a25ca1b09bbc2a5c64024318982a342fc08d93bbc7e0d64696178d20bd3461",
+    "SYN-002": "598d3699728091c592618994a2df15becc7d3baa8328913da2bdd52063994c09",
+    "SYN-003": "7400df6b60955921cb0c6c958bcd7d83059209a8c631ab6ac4f4744ee22d73fc",
+    "SYN-004": "b181f66ed6a069bc86a477f072d09e84281ed0192c73633e53018f9e7225ed9d"
+  },
+  "source_input_sha256": {
+    "vol_ie_R.nii.gz": "cfac6bb141eb5729a0d444d361102d415223a6cb757537062245372f0542cc92",
+    "vol_ie_L.nii.gz": "ae8f3fd1cd06868fe1e334bba996802886facc85bdb32dfdf95ac12d0213a9bc"
+  },
+  "datasets": {
+    "automatic_localization": "VS-SEG average of six cases and mirrors; CC BY 4.0",
+    "LUMEN_skeleton": "IE-Map right cochlear centerline, modified and mirrored; CC BY 4.0",
+    "evaluation": "IE-Vnet sample SPACE crops from one subject; Apache-2.0"
+  },
+  "libraries": {
+    "dicom-parser": "1.8.21",
+    "fflate": "0.8.3"
+  },
+  "synthetic_case_images_included": false,
+  "reference_label_masks_included": true
+}

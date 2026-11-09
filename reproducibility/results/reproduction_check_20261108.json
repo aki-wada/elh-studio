@@ -1,0 +1,47 @@
+{
+  "prepared": "2026-11-08",
+  "python": "3.10.16",
+  "node": "v22.14.0",
+  "regeneration": {
+    "identical_nifti_arrays_and_affines": 52,
+    "identical_reference_csv_and_landmark_csv": 8
+  },
+  "pipeline": {
+    "cases": [
+      "SYN-001",
+      "SYN-002",
+      "SYN-003",
+      "SYN-004"
+    ],
+    "region_conditions_checked": 32,
+    "voxel_agreement": {
+      "SYN-001": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      },
+      "SYN-002": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      },
+      "SYN-003": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      },
+      "SYN-004": {
+        "ppi": 1.0,
+        "pei": 1.0,
+        "mrc": 1.0,
+        "hydrops": 1.0
+      }
+    },
+    "errors": [],
+    "passed": true
+  },
+  "scope": "Technical synthetic reproduction only; not clinical validation, observer reproducibility, browser UI verification or a new timing measurement."
+}

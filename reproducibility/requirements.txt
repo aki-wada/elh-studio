@@ -1,0 +1,8 @@
+# Exact package versions used for local reproduction. Python 3.10.16.
+numpy==1.26.4
+scipy==1.15.3
+nibabel==5.3.3
+SimpleITK==2.5.5
+pydicom==3.0.1
+scikit-image==0.24.0
+matplotlib==3.9.2

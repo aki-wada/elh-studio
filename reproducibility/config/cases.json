@@ -1,0 +1,58 @@
+{
+  "SYN-001": {
+    "random_seed": 20261006,
+    "designed_fractions": {
+      "L": {
+        "cochlea": 0.5,
+        "vestibule": 0.55
+      },
+      "R": {
+        "cochlea": 0.15,
+        "vestibule": 0.3
+      }
+    },
+    "cochlea_model": "scala_vestibuli"
+  },
+  "SYN-002": {
+    "random_seed": 20261007,
+    "designed_fractions": {
+      "L": {
+        "cochlea": 0.4,
+        "vestibule": 0.7
+      },
+      "R": {
+        "cochlea": 0.3,
+        "vestibule": 0.6
+      }
+    },
+    "cochlea_model": "scala_vestibuli"
+  },
+  "SYN-003": {
+    "random_seed": 20261008,
+    "designed_fractions": {
+      "L": {
+        "cochlea": 0.08,
+        "vestibule": 0.25
+      },
+      "R": {
+        "cochlea": 0.2,
+        "vestibule": 0.42
+      }
+    },
+    "cochlea_model": "scala_vestibuli"
+  },
+  "SYN-004": {
+    "random_seed": 20261009,
+    "designed_fractions": {
+      "L": {
+        "cochlea": 0.08,
+        "vestibule": 0.25
+      },
+      "R": {
+        "cochlea": 0.06,
+        "vestibule": 0.22
+      }
+    },
+    "cochlea_model": "scala_vestibuli"
+  }
+}
