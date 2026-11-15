@@ -1,12 +1,16 @@
 {
   "prepared": "2026-11-08",
   "version": "1.3.1",
+  "distribution_version": "1.3.1.1",
+  "distribution_note": "1.3.1.1 updates the operation manuals only; the application HTML is identical to 1.3.1.",
   "repository": "https://github.com/aki-wada/elh-studio",
   "public_release_performed": true,
   "html_sha256": "0c48c6b8233b9267f3ff75bb6ce0b2eac1219fdc413996195d3edbc7647458ab",
   "evaluated_browser_html_sha256": "9e2938fab10841306713cde9bcda5421c5386ae890fd17ef403e49185f7b992c",
   "html_difference": "Only two default UI language expressions changed from Japanese to English. Reversing those expressions gives the evaluated browser HTML hash exactly.",
   "frozen_source_commit": "658075e186e79418f13ce170ca06b967b33bc6e4",
+  "manual_source_commit": "ed3e8deb6cd43ecfdccd2b4eec5924b66620bd83",
+  "manual_updated": "2026-11-15",
   "engine_sha256": "6ffd2765cfea365aea5e7ae9f34769c160a504023bce2fae6abdf5eca4fb8bec",
   "worker_sha256": "fb57b3c90a67ee2a5e37cfc85d7ebc8973dd5cdb00676acf0dfec88e4b472488",
   "original_final_edited_export_sha256": {

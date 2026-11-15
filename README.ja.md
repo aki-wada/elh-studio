@@ -4,7 +4,7 @@
 
 ELH Studioは、蝸牛・前庭の内リンパ腔（ELS）の体積・体積比を測定する研究用ブラウザアプリです。ELHはendolymphatic hydrops（内リンパ水腫）の略です。
 
-Google Chromeで単一のHTMLファイルを開いて使用します。PPIとPEIからHYDROPSを作成し、両耳の蝸牛・前庭の全液腔を抽出します。領域内のHYDROPS負値voxelをELSとして数えます。画像と中心点を確認し、必要に応じて不要な信号を除去して結果を保存できます。
+Google Chromeで単一のHTMLファイルを開いて使用します。PPIとPEIからHYDROPSを作成し、両耳の蝸牛・前庭の全液腔を抽出します。領域内のHYDROPS負値voxelをELSとして数えます。画像と中心点を確認し、内耳道の液を除いて（必須の手順）結果を保存します。
 
 **研究用です。臨床性能は確立していません。** [利用条件](TERMS.md)を確認してください。再配布には開発者の事前許可が必要です。
 
@@ -13,6 +13,8 @@ Google Chromeで単一のHTMLファイルを開いて使用します。PPIとPEI
 このリポジトリをZIPで取得して展開し、`app/ELH_Studio.html` をGoogle Chromeで開いてください。Windowsでは `app/Start_ELH.bat` も使用できます。アプリの実行にPython・Node.js・サーバーは不要です。
 
 [簡単な手順](docs/QUICKSTART.md)、[日本語マニュアル](docs/操作マニュアル.pdf)、[マニュアル追補](docs/MANUAL_UPDATES.md)を参照してください。画面の言語は日本語・英語から選べます。
+
+1.3.1.1 は操作マニュアルの更新のみです。アプリ（`app/ELH_Studio.html`）は 1.3.1 と同一で、計算も変わりません。
 
 ## 評価と再現資料
 

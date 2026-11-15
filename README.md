@@ -4,7 +4,7 @@
 
 ELH Studio is a browser-based research tool for measuring the volume and volume ratio of the endolymphatic space (ELS) in the cochlea and vestibule. ELH means endolymphatic hydrops.
 
-The application runs offline as one HTML file in Google Chrome. It creates HYDROPS images from PPI and PEI, extracts the total fluid regions of both ears, and counts negative HYDROPS voxels within each region as ELS. Users can review the images, adjust center points and remove unwanted signal before saving results.
+The application runs offline as one HTML file in Google Chrome. It creates HYDROPS images from PPI and PEI, extracts the total fluid regions of both ears, and counts negative HYDROPS voxels within each region as ELS. Users review the images and center points, remove the fluid of the internal auditory canal (a required step) and save the results.
 
 **Research use only.** Clinical performance has not been established. Please read [the terms](TERMS.md); redistribution requires prior permission from the developers.
 
@@ -14,11 +14,13 @@ Download the repository as a ZIP and extract it. Open `app/ELH_Studio.html` in G
 
 See [Quick start](docs/QUICKSTART.md), the [English manual](docs/Operation_Manual_EN.pdf), and [dated manual updates](docs/MANUAL_UPDATES.md). Choose Japanese or English in the application.
 
+Version 1.3.1.1 updates the operation manuals only. The application (`app/ELH_Studio.html`) is identical to version 1.3.1, and the calculations are unchanged.
+
 ## Inputs and outputs
 
 The main workflow uses PPI, PEI and MRC DICOM series on the same grid. The tool exports images and region labels as NIfTI, measurements as CSV, settings as JSON and review images as PNG, in a ZIP that can be reopened.
 
-Other input modes and the experimental LUMEN module are described in the manual. They were not the main evaluation in the Technical Note.
+The manual covers this main workflow and the experimental LUMEN module; other input modes are only mentioned there. They were not the main evaluation in the Technical Note.
 
 ## Technical evaluation
 
