@@ -1,5 +1,11 @@
 # Manual updates
 
+## 18 November 2026: version 1.3.2
+
+The PDF manuals are the concise editions of 15 November 2026. Page 4 describes placing a center point again in 1.3.2: only the point that was placed is snapped again, and the other three points do not move. The LUMEN button and the LUMEN view title now carry a 「検証中」 label (Under verification in English), which the manuals do not show; LUMEN is a visualization module under verification.
+
+A result saved by 1.3.1 after a center point was placed again once the four points existed was saved with the regions as they moved at that re-placement. Opening it in 1.3.2 does not change it. To bring that examination to the 1.3.2 values, load it again from the images, place the center points and extract again. Whether a re-placement happened cannot be told reliably from the saved result (manual_seed_edit in report.json is also true when the four points are first placed by hand).
+
 ## 15 November 2026: concise manuals (version 1.3.1.1)
 
 Version 1.3.1.1 updates the operation manuals only. The application (`app/ELH_Studio.html`) is identical to version 1.3.1, and the calculations are unchanged.
@@ -16,6 +22,12 @@ These notes update the verification status stated in the earlier 34-page manuals
 - LUMEN remains experimental. Its verification is separate from the ELS volume and volume ratio evaluation in the Technical Note.
 
 ## 日本語
+
+### 2026年11月18日：1.3.2
+
+PDFマニュアルは2026年11月15日の簡潔版です。4ページに、1.3.2 で中心点を置き直したときの動き（寄せ直すのは置いた1点だけで、ほかの3点は動かない）を書いてあります。LUMEN のボタンと LUMEN の画面の題の横には「検証中」の札が出ます（マニュアルの文には書いていません）。LUMEN は検証中の可視化機能です。
+
+1.3.1 で、4 点がそろった後に中心点を置き直して保存した結果は、置き直しで動いた領域のまま保存されています。1.3.2 で開いても変わりません。その検査を 1.3.2 の値にそろえるには、画像から読み込み直し、中心点を置いて抽出し直してください。保存結果からは、置き直しがあったかどうかを確実には見分けられません（report.json の manual_seed_edit は、4 点を初めて手で置いたときにも true になります）。
 
 ### 2026年11月15日：簡潔版のマニュアル（1.3.1.1）
 

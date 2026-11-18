@@ -6,6 +6,8 @@ ELH Studio is a browser-based research tool for measuring the volume and volume 
 
 The application runs offline as one HTML file in Google Chrome. It creates HYDROPS images from PPI and PEI, extracts the total fluid regions of both ears, and counts negative HYDROPS voxels within each region as ELS. Users review the images and center points, remove the fluid of the internal auditory canal (a required step) and save the results.
 
+Copyright (c) 2026 Juntendo University. ELH Studio was created by Akihiko Wada (Department of Radiology, Juntendo University School of Medicine).
+
 **Research use only.** Clinical performance has not been established. Please read [the terms](TERMS.md); redistribution requires prior permission from the developers.
 
 ## Start
@@ -14,7 +16,7 @@ Download the repository as a ZIP and extract it. Open `app/ELH_Studio.html` in G
 
 See [Quick start](docs/QUICKSTART.md), the [English manual](docs/Operation_Manual_EN.pdf), and [dated manual updates](docs/MANUAL_UPDATES.md). Choose Japanese or English in the application.
 
-Version 1.3.1.1 updates the operation manuals only. The application (`app/ELH_Studio.html`) is identical to version 1.3.1, and the calculations are unchanged.
+Version 1.3.2 fixes one bug of version 1.3.1: when one center point is placed again, only that point is snapped, and the other three points do not move. LUMEN is now labeled as under verification on screen. See the [release notes](docs/RELEASE_NOTES.md). The technical evaluation below was performed with version 1.3.1, which remains available in Release v1.3.1.
 
 ## Inputs and outputs
 
@@ -32,6 +34,6 @@ Read [Validation](docs/VALIDATION.md) for reference definitions, individual erro
 
 The automatic-localization template is an average of six public VS-SEG cases and their mirrors. The LUMEN cochlear skeleton is derived from IE-Map. Evaluation anatomy comes from the public IE-Vnet sample data. Source-derived material is not wholly artificial. See [third-party notices](THIRD_PARTY_NOTICES.txt).
 
-Cite the software using [CITATION.cff](CITATION.cff) and state version 1.3.1. The related manuscript is in preparation; no publication DOI or accepted conference citation is assigned here.
+Cite the software using [CITATION.cff](CITATION.cff) and state the version used. The related manuscript is in preparation; no publication DOI or accepted conference citation is assigned here.
 
 Report reproducible issues through this repository when available. Include the app version, browser and steps, and omit patient images and identifying information.
